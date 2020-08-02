@@ -23,7 +23,7 @@
 
 ## Results
 
-The election results can be seen here: [ElectionResults](PyPoll/ElectionResults.txt)
+The election results can be seen here: [Election Results](PyPoll/ElectionResults.txt)
 
 The code to complete this task can be seen here: [PyPoll Code](PyPoll/PyPoll_Complete.py)
 
