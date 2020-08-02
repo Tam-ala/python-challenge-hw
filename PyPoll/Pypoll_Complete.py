@@ -58,12 +58,12 @@ with open("ElectionResults.txt","w") as text:
     text.write("Votes per Candidate \n")
     for (key, value) in candidate_votes.items(): 
         text.write(key) 
-        text.write(f"{value} \n") 
+        text.write(f" {value} \n") 
     text.write("-------------------------- \n")
     text.write("Percentage of Votes per Candidate \n")
     for (key, value) in candidate_percentage.items(): 
         text.write(key) 
-        text.write(f"{value} \n") 
+        text.write(f" {value} \n") 
     text.write("-------------------------- \n")
     text.write(f"Winner: {winner} \n")
     text.write("-------------------------- \n")
