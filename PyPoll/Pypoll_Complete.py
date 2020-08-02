@@ -59,7 +59,6 @@ with open("ElectionResults.txt","w") as text:
     for (key, value) in candidate_votes.items(): 
         text.write(key) 
         text.write(f"{value} \n") 
-        # text.write(value+"") #works on js & java
     text.write("-------------------------- \n")
     text.write("Percentage of Votes per Candidate \n")
     for (key, value) in candidate_percentage.items(): 
