@@ -56,12 +56,15 @@ with open("ElectionResults.txt","w") as text:
     text.write(f"Total Votes: {str(total_votes)} \n")
     text.write("-------------------------- \n")
     text.write("Votes per Candidate \n")
-    for i in candidate_votes.items(): 
-        text.write(key, value) 
+    for (key, value) in candidate_votes.items(): 
+        text.write(key) 
+        text.write(f"{value} \n") 
+        # text.write(value+"") #works on js & java
     text.write("-------------------------- \n")
     text.write("Percentage of Votes per Candidate \n")
-    for i in candidate_percentage.items(): 
+    for (key, value) in candidate_percentage.items(): 
         text.write(key) 
+        text.write(f"{value} \n") 
     text.write("-------------------------- \n")
     text.write(f"Winner: {winner} \n")
     text.write("-------------------------- \n")
