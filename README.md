@@ -24,9 +24,10 @@
 ## Results
 
 The election results can be seen here: [ElectionResults](PyPoll/ElectionResults.txt)
+
 The code to complete this task can be seen here: [PyPoll Code](PyPoll/PyPoll_Complete.py)
 
-# Summary
+### Summary
 
 The candidate who one this election and will be our new representative is Khan!
 
